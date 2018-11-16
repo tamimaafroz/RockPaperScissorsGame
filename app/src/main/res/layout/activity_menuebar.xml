@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/num9"
+    tools:context=".menuebar">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/num4" />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:id="@+id/b2"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="196dp"
+        android:background="#FFA500"
+        android:text="PLAY" />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:background="#FF8C00"
+        android:id="@+id/b3"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="PROCEDURE" />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:id="@+id/b4"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:background="#FFA500"
+        android:text="HELP" />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:id="@+id/b5"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:background="#FF8C00"
+        android:text="EXIT" />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:id="@+id/b6"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:background="#FFA500"
+        android:text="MORE GAMES" />
+
+</RelativeLayout>
